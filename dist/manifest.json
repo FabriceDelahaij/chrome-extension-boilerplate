@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Extension with reactjs and typescript boilerplate",
+  "version": "1.0",
+  "description": "A Chrome extension that demonstrates reactjs and typescript",
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["sidePanel"],
+  "host_permissions": ["https://*/*"]
+}

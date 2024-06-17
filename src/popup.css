@@ -1,0 +1,9 @@
+.popup-container {
+  min-height: 600px;
+  max-width: 768px;
+  width: 100%;
+  overflow-y: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
